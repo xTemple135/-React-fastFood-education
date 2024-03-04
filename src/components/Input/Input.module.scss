@@ -1,0 +1,17 @@
+.input {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  padding: 20px 20px;
+  color: $text-secondary;
+  box-sizing: border-box;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 10px;
+  box-shadow: 15px 20px 45px 0px rgba(233, 233, 233, 0.25);
+  background: rgb(255, 255, 255);
+  outline: none;
+  height: 65px;
+  &::placeholder {
+    color: #c4c4c4;
+  }
+}

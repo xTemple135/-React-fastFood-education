@@ -1,0 +1,52 @@
+.info {
+  display: flex;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    .cart-info {
+      display: flex;
+      gap: 50px;
+    }
+    .leftBar {
+      .pic {
+        width: 449px;
+        height: 253px;
+        border-radius: 10px;
+      }
+    }
+    .rightBar {
+      min-width: 250px;
+      .line {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .text {
+          color: $black-text;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 22px;
+        }
+        .price {
+          color: $black-text;
+          font-size: 19px;
+          font-weight: 400;
+          line-height: 26px;
+        }
+      }
+      .raiting {
+        padding: 5px;
+        border-radius: 136px;
+        box-shadow: 0px 6.07px 24.29px 0px rgba(254, 114, 76, 0.2);
+        background: rgb(255, 255, 255);
+      }
+
+      .composition {
+        display: flex;
+        margin-top: 30px;
+      }
+    }
+  }
+}

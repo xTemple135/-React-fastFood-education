@@ -1,0 +1,34 @@
+.logForm {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  max-width: 600px;
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      label {
+        color: $text-secondary;
+      }
+    }
+  }
+  .reg {
+    text-align: center;
+    &_not {
+      color: $black-text;
+    }
+    .Link {
+      text-decoration: none;
+      color: $primary-color;
+      &:visited {
+        color: $primary-color;
+        text-decoration: none;
+      }
+    }
+  }
+}

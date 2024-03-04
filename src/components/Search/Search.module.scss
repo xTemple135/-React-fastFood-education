@@ -1,0 +1,17 @@
+.search-wrapper {
+  position: relative;
+  .search-input {
+    padding: 16px 44px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 10px;
+    background: rgb(252, 252, 253);
+    min-width: 256px;
+  }
+  .findIcon {
+    position: absolute;
+    top: 15px;
+    left: 17px;
+  }
+}
